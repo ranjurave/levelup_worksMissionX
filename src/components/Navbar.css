@@ -31,7 +31,10 @@
 
   .flags{
     display: flex;
-    align-items: top;
+    align-self: flex-start;
     margin: 5px;
     padding: 10px;
+  }
+  .flags img{
+    padding: 2px;
   }

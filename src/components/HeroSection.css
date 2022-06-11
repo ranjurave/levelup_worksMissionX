@@ -28,7 +28,7 @@
     padding: 10px;
     align-items: center;
 }
-.link-item a{
+a{
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -37,4 +37,8 @@
     color: white;
     padding: 10px;
     font-weight: bold;
+}
+a:hover{
+    color: black;
+    background-color: #b2e4fa;
 }

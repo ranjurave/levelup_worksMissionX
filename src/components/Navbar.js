@@ -12,18 +12,15 @@ function Navbar() {
             <Link to="/" className="navbar-logo">
                 <img src="images/Star Logo 07-3/Star Logo 07-3.png" alt="LevelUp logo"/>
             </Link>
-            {/* //<PinkButton></PinkButton> */}
         </div>
         <div className='navbar-buttons'>
             <YellowButton></YellowButton>
             <PinkButton></PinkButton>
             <BlueButton></BlueButton>
-            <Link to="/" className="flags">
+            <div className="flags">
                 <img src="images/NZ Flag/NZ Flag.png" alt="New Zealand Flag"/>
-            </Link>
-            <Link to="/" className="flags">
                 <img src="images/Maori flag/Maori flag.png" alt="Maori Flag"/>
-            </Link>
+            </div>
         </div>
     </nav>
     </>

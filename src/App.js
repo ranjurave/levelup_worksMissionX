@@ -16,6 +16,3 @@ function App() {
 }
 
 export default App;
-
-//TODO from 45.00 minutes
-//TODO optimise button.js

@@ -1,34 +1,29 @@
-import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+import PinkButton from './PinkButton';
+import YellowButton from './YellowButton';
+import BlueButton from './BlueButton';
 import './Navbar.css';
 
 function Navbar() {
-    const [button, setButton] = useState(true);
-
-    const showButton = () => {
-        if(window.innerWidth <= 960){
-            setButton(false);
-        }else{
-            setButton(true);
-        }
-    };
-    // to not show button of refresh on narrow window
-    useEffect(()=>{
-        showButton();
-    }, []);
-    window.addEventListener('resize', showButton);
   return (
     <>
     <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className='navbar-logo'>
             <Link to="/" className="navbar-logo">
-            <img src="images/Star Logo 07-3/Star Logo 07-3.png" alt="LevelUp logo"/>
+                <img src="images/Star Logo 07-3/Star Logo 07-3.png" alt="LevelUp logo"/>
             </Link>
-            <div className='menu-icon'>
-
-            </div>
-            {button && <Button buttonStyle='btn--outline'>Signup</Button>}
+            {/* //<PinkButton></PinkButton> */}
+        </div>
+        <div className='navbar-buttons'>
+            <YellowButton></YellowButton>
+            <PinkButton></PinkButton>
+            <BlueButton></BlueButton>
+            <Link to="/" className="flags">
+                <img src="images/NZ Flag/NZ Flag.png" alt="New Zealand Flag"/>
+            </Link>
+            <Link to="/" className="flags">
+                <img src="images/Maori flag/Maori flag.png" alt="Maori Flag"/>
+            </Link>
         </div>
     </nav>
     </>

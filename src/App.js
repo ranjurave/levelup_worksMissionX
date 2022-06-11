@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
 import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 
 function App() {
@@ -8,9 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
-        <Routes >
-          <Route path='/' exact />
-        </Routes>
+        <HeroSection/>
       </Router>
     </div>
   );

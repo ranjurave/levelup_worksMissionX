@@ -1,0 +1,25 @@
+.student-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: fle;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    margin-bottom: 5px;
+    padding: 10px; 
+    border-radius: 10px;
+}
+.student img{
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.student h5{
+    color: #767676;
+}

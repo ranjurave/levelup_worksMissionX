@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './HeroSection.css'
-function HeroSection() {
+import './TeacherSection.css'
+function TeacherLinksSection() {
   return (
   <>
-    <div className='body'>
         <div className='links'>
             <div className='link-profile'>
                 <Link to="/" className="links-logo">
@@ -32,14 +31,8 @@ function HeroSection() {
                 PROJECT LIBRARY
             </a>
         </div>
-        <div className='contents'>
-            <div className='contents-inner'>
-                BodySection
-            </div>
-        </div>
-    </div>
     </>
   )
 }
 
-export default HeroSection
+export default TeacherLinksSection

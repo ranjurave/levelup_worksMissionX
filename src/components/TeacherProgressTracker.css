@@ -1,0 +1,18 @@
+.contents{
+    background-color: #b2e4fa;
+    width: 80%;
+    padding: 50px;
+}
+.contents-inner{
+    background-color:#d9f2fd ;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    padding: 80px;
+}
+.page-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #767676;
+}

@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
+import TeacherSection from './components/TeacherSection';
 import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
-        <HeroSection/>
+        <TeacherSection/>
       </Router>
     </div>
   );

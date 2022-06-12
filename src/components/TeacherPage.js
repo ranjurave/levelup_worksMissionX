@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './TeacherSection.css'
-function TeacherBodySection() {
+import './Teacher.css'
+function TeacherPage() {
   return (
     <>
       <div className='contents'>
@@ -13,4 +13,4 @@ function TeacherBodySection() {
   )
 }
 
-export default TeacherBodySection
+export default TeacherPage

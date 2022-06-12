@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './TeacherProgressTracker.css'
-function TeacherProgressTracker() {
+import './ProgressTracker.css'
+function ProgressTracker() {
   return (
     <>
       <div className='contents'>
@@ -16,4 +16,4 @@ function TeacherProgressTracker() {
   )
 }
 
-export default TeacherProgressTracker
+export default ProgressTracker

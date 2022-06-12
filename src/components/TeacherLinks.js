@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './TeacherSection.css'
+import './Teacher.css'
+import ProgressTracker from './ProgressTracker';
+import StudentProfiles from './StudentProfiles';
 function TeacherLinksSection() {
   return (
   <>

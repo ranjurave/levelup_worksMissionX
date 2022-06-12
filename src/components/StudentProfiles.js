@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './TeacherProgressTracker.css'
+import './ProgressTracker.css'
 import './StudentProfiles.css'
 function StudentProfiles() {
   return (

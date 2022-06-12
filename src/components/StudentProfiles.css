@@ -4,10 +4,11 @@
     flex-wrap: wrap;
 }
 .student{
+    filter: drop-shadow(1px 1px 3px #b9b9b9);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: fle;
+    justify-content: flex-end;
     background-color: white;
     width: 150px;
     height: 150px;

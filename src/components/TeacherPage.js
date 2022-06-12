@@ -1,14 +1,19 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import './Teacher.css'
+import './TeacherPage.css'
+import TeacherLinks from './TeacherPageLinks';
+import ProgressTracker from './ProgressTracker';
+import StudentProfiles from './StudentProfiles';
+
 function TeacherPage() {
   return (
-    <>
-      <div className='contents'>
-          <div className='contents-inner'>
-              BodySection
-          </div>
-      </div>
+  <>
+    <div className='body'>
+        <TeacherLinks></TeacherLinks>
+        {/* Comment and uncomment 'ProgressTracker' and 'StudentProfiles' below, to load the pages manually */}
+        <ProgressTracker></ProgressTracker>
+        {/* <StudentProfiles></StudentProfiles> */}
+    </div>
     </>
   )
 }

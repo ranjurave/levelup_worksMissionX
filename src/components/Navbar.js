@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import PinkButton from './PinkButton';
-import YellowButton from './YellowButton';
-import BlueButton from './BlueButton';
+import PinkButton from './Buttons/PinkButton';
+import YellowButton from './Buttons/YellowButton';
+import BlueButton from './Buttons/BlueButton';
 import './Navbar.css';
 
 function Navbar() {

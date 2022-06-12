@@ -9,67 +9,67 @@ function StudentProfiles() {
           <div className='contents-inner'>
             <div className='student-list'>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               <Link to="/" className="student">
-                <img src="images/Ellipse 38/Ellipse 38.png" alt="Ellipse"/>
+                <img src="images/Aiden Andrews/Ellipse 38.png" alt="Ellipse"/>
                 <h5>AIDEN ANDREWS</h5>
               </Link>
               </div>

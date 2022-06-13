@@ -8,24 +8,3 @@
     justify-content: flex-end;
     align-items: center;
   }
-
-  .navbar-logo {
-    display: flex;
-    align-items: center;
-    justify-self: end;
-    color: #fff;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-
-  .flags{
-    display: flex;
-    align-self: flex-start;
-    margin: 5px;
-    padding: 10px;
-  }
-  .flags img{
-    padding: 2px;
-  }

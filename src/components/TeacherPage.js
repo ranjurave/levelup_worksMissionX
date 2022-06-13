@@ -11,8 +11,8 @@ function TeacherPage() {
     <div className='body'>
         <TeacherLinks></TeacherLinks>
         {/* Comment and uncomment 'ProgressTracker' and 'StudentProfiles' below, to load the pages manually */}
-        <ProgressTracker></ProgressTracker>
-        {/* <StudentProfiles></StudentProfiles> */}
+        {/* <ProgressTracker></ProgressTracker> */}
+        <StudentProfiles></StudentProfiles>
     </div>
     </>
   )

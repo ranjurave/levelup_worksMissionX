@@ -1,17 +1,20 @@
-import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
-import TeacherPage from './components/TeacherPage';
-import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
+import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ProgressTrackerPage from './pages/ProgressTrackerPage';
+import StudentProfilePage from './pages/StudentProfilePage';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Navbar/>
-        <TeacherPage/>
-      </Router>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<ProgressTrackerPage/>} />  
+          <Route path="/ProgressTrackerPage" element={<ProgressTrackerPage/>} />
+          <Route path="/StudentProfilePage" element={<StudentProfilePage/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

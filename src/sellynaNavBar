@@ -1,0 +1,87 @@
+import React, { useState } from "react";
+import "./HelpReq.css";
+import HelpReqNavigation from "./HelpReq-Left/HelpReqNav";
+import HelpReqBodySection from "./HelpReq-Right/HelpReqBody";
+import RequestHeader from "./HelpReq-Header/ReqHeader";
+import SettingsButton from "./HelpReq-Left/SettingsAndLogO";
+import MidSection from "./HelpReq-Left/Nav--Middle";
+import LevelUpCopyright from "./HelpReq-Footer/Footer-copyright";
+import HelpReqNavFormatted from "./HelpReq-Left/HelpReqNavFormatted";
+import SettingsButtonCollapsed from "./HelpReq-Left/SettingsBtnFormatted";
+
+function HelpRequests() {
+  // This sets which Nav Bar you want to render
+  const [navBar, setNavBar] = useState(<HelpReqNavigation />);
+
+  // This checks current Nav Bar and changes it to Collpase of Full
+  const [state, setState] = useState("0");
+
+  const [buttonFull, setButtonFull] = useState("inline");
+  const [buttonCollapse, setButtonCollapse] = useState("0");
+
+  const [settings, setSettings] = useState(<SettingsButton />);
+
+  function navChange() {
+    console.log("hitting arrow from navChange");
+
+    if (state === 0) {
+      setNavBar(<HelpReqNavFormatted />);
+      setState(1);
+      setButtonFull("none");
+      setButtonCollapse("inline");
+      setSettings(<SettingsButtonCollapsed />);
+    } else {
+      setNavBar(<HelpReqNavigation />);
+      setState(0);
+      setButtonFull("inline");
+      setButtonCollapse("none");
+      setSettings(<SettingsButton />);
+    }
+  }
+
+  return (
+    <div className="HelpReq">
+      <RequestHeader></RequestHeader>
+      <div className="HelpReqBody">
+        <div className="HelpReqbody-left">
+          {navBar}
+
+          {/* <HelpReqNavFormatted /> */}
+
+          {/* <HelpReqNavigation /> */}
+
+          {/* <MidSection></MidSection> */}
+
+          {/* Below is two buttons, when one is clicked it will dissapear and the other will appear and vice versa */}
+          {/* Button One */}
+          <div className="Spacing-sec Nav" style={{ display: `${buttonFull}` }}>
+            <button className="minNav--Button" onClick={navChange}>
+              <div className="triangle-btn"></div>
+            </button>
+          </div>
+
+          {/* Button Two */}
+          <div
+            className="Spacing-sec Nav"
+            style={{ display: `${buttonCollapse}` }}
+          >
+            <button className="minNav--Button_coll" onClick={navChange}>
+              <div className="triangle-btn_coll"></div>
+            </button>
+          </div>
+          {settings}
+
+          {/* <SettingsButtonCollapsed /> */}
+
+          {/* <SettingsButton /> */}
+        </div>
+        <div className="HelpReqbody-right">
+          <HelpReqBodySection></HelpReqBodySection>
+        </div>
+      </div>
+      <LevelUpCopyright></LevelUpCopyright>
+    </div>
+  );
+}
+
+export default HelpRequests;

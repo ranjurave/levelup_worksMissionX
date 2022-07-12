@@ -1,0 +1,36 @@
+.body{
+    display: flex;
+    height: 900px;
+}
+.contents{
+    background-color: #b2e4fa;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+}
+.contents-inner{
+    background-color:#d9f2fd ;
+    height: 100%;
+    border-radius: 50px;
+    padding: 50px;
+}
+.contents-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.contents-list::-webkit-scrollbar {
+    background-color: #FFFFFFBF;
+    width: 24px;
+    height: 50%;
+    border-radius: 30px;
+}
+.contents-list::-webkit-scrollbar-thumb {
+    background-color: #43C0F6;
+    border-radius: 15px;
+    border: 4px solid #FFFFFFBF;
+    background-clip: content-box;
+}

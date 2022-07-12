@@ -1,0 +1,36 @@
+.pink_btn{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 50px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color:#f91c85;
+    border: none;
+    border-radius: 5px;
+}
+.yellow_btn{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 50px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color:#e5ab2c;
+    border: none;
+    border-radius: 5px;
+}
+.blue_btn{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 50px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color:#43c0f6;
+    border: none;
+    border-radius: 5px;
+}
